@@ -1,3 +1,26 @@
+# Week 0 MCP Setup Assessment Report
+
+## 1. What I Did
+- Cloned the provided GitHub repo into my local environment.
+- Updated VS Code to the latest version.
+- Installed GitHub Copilot and GitHub Copilot Chat extensions.
+- Created required folders and files:
+  - `.vscode/mcp.json` for MCP server configuration.
+  - `.github/copilot-instructions.md` for AI agent rules.
+- Attempted to connect to Tenx MCP server (`tenxfeedbackanalytics`) via Copilot Chat Agent mode.
+- Authenticated with GitHub when prompted.
+
+## 2. What Worked
+- VS Code setup completed successfully.
+- Copilot Chat agent mode works.
+- `.vscode/mcp.json` and `.github/copilot-instructions.md` files created successfully.
+- AI agent is following the rules in `.github/copilot-instructions.md`.
+
+## 3. What Didn’t Work
+- MCP server `tenxfeedbackanalytics` failed to fully connect.
+- Logs showed repeated `404 Not Found` errors when connecting to: https://mcppulse.10academy.org/proxy
+
+
 - As a result, the MCP server did not appear in the agent tools panel.
 - Possible causes:
 - URL typo or extra characters in `mcp.json`.
